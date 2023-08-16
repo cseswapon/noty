@@ -1,0 +1,35 @@
+// container define large display
+@use '../../../sass/variable' as *;
+@forward '../../../sass/utils/index';
+// header link
+.headerLink{
+    font-size: 15px;
+    font-weight: 500;
+    a{
+        color: $black;
+    }
+}
+
+.regText{
+    font-size: 15px;
+    color: $blueBackground;
+    font-weight: 600;
+}
+
+// background class
+.blue {
+    background-color: $blueBackground;
+    color: white;
+}
+
+
+// header button
+.reg_btn {
+    width: 161px;
+    height: 44px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 600;
+    border: 0px;
+    border-radius: 25px;
+}

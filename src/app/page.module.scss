@@ -1,9 +1,6 @@
-$primary-color: #007bff;
+@use '../sass/variable' as *;
 
-.title {
-  background-color: $primary-color;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
+.heroSectionBgColor{
+  border-radius: 0px 0px 50px 50px;
+  background: $heroSectionColor;
 }
