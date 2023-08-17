@@ -1,0 +1,22 @@
+// variable define
+@use '../../../sass/variable' as *;
+// define class
+@forward '../../../sass/utils/index';
+
+
+.card{
+    width: 352px;
+    height: 139px;
+    background-color: $lightGray;
+    
+    img{
+        width: 48.82px;
+        height: 43.44px;
+    }
+    p{
+        color: $black;
+        font-size: 17px;
+        font-weight: 600;
+        line-height: normal;
+    }
+}
