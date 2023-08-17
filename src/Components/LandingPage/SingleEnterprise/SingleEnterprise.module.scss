@@ -1,0 +1,16 @@
+// variable define
+@use '../../../sass/variable' as *;
+// define class
+@forward '../../../sass/utils/index';
+
+.enterpriseCard{
+    width: 484px;
+    height: 266px;
+    border-radius: 13px;
+    background: $white;
+    box-shadow: 0px 0px 4px 0px $cardShadowColor;
+}
+
+.borderBottom{
+    border-bottom: 1px solid $borderGray;
+}

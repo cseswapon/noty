@@ -3,6 +3,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import variable from "./page.module.scss";
 import HeroSection from "@/Components/LandingPage/HeroSection/HeroSection";
 import Categories from "@/Components/LandingPage/Categories/Categories";
+import Enterprise from "@/Components/LandingPage/Enterprise/Enterprise";
+import Footer from "@/Components/Common/Footer/Footer";
 export default function Home() {
   return (
     <>
@@ -12,6 +14,8 @@ export default function Home() {
         <HeroSection />
       </section>
       <Categories />
+      <Enterprise />
+      <Footer />
     </>
   );
 }

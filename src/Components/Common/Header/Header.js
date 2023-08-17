@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <div className={`${variable.container} py-4`}>
+    <header className={`${variable.container} py-4`}>
       <div className="row justify-content-between align-items-center">
         <div className="col-9 d-flex align-items-center">
           <Image src="/icon/logo.svg" width={90.51} height={38} alt="Picture of the author" />
@@ -49,6 +49,6 @@ export default function Header() {
           </ul>
         </div>
       </div>
-    </div>
+    </header>
   );
 }

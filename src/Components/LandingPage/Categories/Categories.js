@@ -7,7 +7,7 @@ export default function Categories() {
   return (
     <section className={`${variable.container} py-5`}>
       {/* categories section text */}
-      <div className="d-flex justify-content-between align-items-start">
+      <div className="d-flex justify-content-between align-items-start py-4">
         <div>
           <h3>Explorez par Catégorie</h3>
           <p>
@@ -20,7 +20,7 @@ export default function Categories() {
         </p>
       </div>
       {/* all categories section */}
-      <div className="row">
+      <div className={`${variable.gap} justify-content-between row`}>
         <SingleCategories
           title={"Hôtels et Maisons d’Hôte"}
           img={"/icon/hotel.svg"}

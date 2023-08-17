@@ -3,6 +3,8 @@
 // define class
 @forward '../../../sass/utils/index';
 
-.gap{
-    gap: 3.2rem;
+.footerBg{
+    background-color: $footer-primary;
+    width: 100%;
+    height: 386px;
 }
